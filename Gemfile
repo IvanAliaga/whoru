@@ -54,7 +54,7 @@ gem "hipchat"
 gem "dalli"
 
 group :assets do
-  gem "compass-rails", :git => "git@github.com:Compass/compass-rails.git", :branch => "rails4"
+  gem "compass-rails", "~> 2.0.alpha.0"
 end
 
 group :development do

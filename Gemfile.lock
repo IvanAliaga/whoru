@@ -1,12 +1,4 @@
 GIT
-  remote: git@github.com:Compass/compass-rails.git
-  revision: 3e0040191220992eb6d5ccc17ddcc053733ee538
-  branch: rails4
-  specs:
-    compass-rails (1.0.3)
-      compass (>= 0.12.2, < 0.14)
-
-GIT
   remote: git@github.com:plataformatec/devise.git
   revision: 6b5988d756d780903bf8c9ccb3e2b3b724ccebe8
   branch: rails4
@@ -100,6 +92,8 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
+    compass-rails (2.0.alpha.0)
+      compass (>= 0.12.2, < 0.14)
     dalli (2.6.4)
     debug_inspector (0.0.2)
     erubis (2.7.0)
@@ -252,7 +246,7 @@ DEPENDENCIES
   carrierwave
   carrierwave-meta
   coffee-rails (~> 4.0.0)
-  compass-rails!
+  compass-rails (~> 2.0.alpha.0)
   dalli
   devise!
   high_voltage
