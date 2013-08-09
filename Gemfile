@@ -19,7 +19,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 2.3.0'
 gem 'devise',:git => 'git@github.com:plataformatec/devise.git', :branch => 'rails4'
 gem "seo_helper", "~> 1.0"
 gem "open_graph_helper"
