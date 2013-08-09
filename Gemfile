@@ -22,7 +22,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 2.3.0'
-gem 'devise',:git => 'git@github.com:plataformatec/devise.git', :branch => 'rails4'
+gem 'devise', '~> 3.0.2'
 gem "seo_helper", "~> 1.0"
 gem "open_graph_helper"
 
