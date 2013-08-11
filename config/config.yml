@@ -8,7 +8,8 @@ defaults: &defaults
   admin_emails: 
     - ""
   google_analytics_key: ""
-  default_logo_url: "/logo.png"
+  default_logo_url: "assets/logo-d6c87d9c7b7792c3585db6c7dfa2aaf6.png"
+  page_desscription: "whoru is a way to understand people among each other"
   email_sender: ""
 
 development:
