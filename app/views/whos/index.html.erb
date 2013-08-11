@@ -1,31 +1,3 @@
 <div class="span12">
     <%= image_tag("logo.png", :alt => "rss feed") %>
-
-<% if false %>
-    <div class="who">
-        <%= link_to("New who", new_who_path , :class => "btn btn-mini btn-primarypull-right") %>
-    </div>
-    <table class="table">
-        <thead>
-            <tr>
-                <td> # </td>
-                <td> Title </td>
-                <td> Descroption </td>
-           </tr>
-        </thead>
-
-        <tbody>
-            <% @whos.each do |who| %>
-            <tr>
-                <td> # </td>
-                <td> <%= link_to(who.title, who_path(who)) %> </td>
-                <td> <%= who.description %> </td>
-                <td> <%= link_to("Edit", edit_who_path(who), :class => "btn btn-mini") %>
-                <%= link_to("Delete", who_path(who), :class => "btn btn-mini", :method => :delete, :confirm => "Are you sure?" ) %>
-                </td>
-            </tr>
-            <% end %>
-        </tbody>
-    </table>
-<% end %>
 </div>
