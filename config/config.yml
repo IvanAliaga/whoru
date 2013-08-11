@@ -1,6 +1,6 @@
 defaults: &defaults
   app_name: "whoru"
-  domain: "http://whoru.dev"    
+  domain: "http://whoru.herokuapp.com/"
   facebook_app_id: 
   facebook_secret: 
   hipchat_token: 
